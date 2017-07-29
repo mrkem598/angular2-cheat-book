@@ -1,6 +1,8 @@
 # angular2-cheat-book
 Important guide to work with Angular 2 
 Bootstrapping	
+![angular2ture](https://user-images.githubusercontent.com/23619819/28743911-b8ff1a52-7423-11e7-9666-cdb569d84540.JPG)
+
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 platformBrowserDynamic().bootstrapModule(AppModule);	
@@ -23,6 +25,8 @@ List of dependency injection providers visible both to the contents of this modu
 bootstrap: [MyAppComponent]	
 List of components to bootstrap when this module is bootstrapped.
 Template syntax	
+![angula2](https://user-images.githubusercontent.com/23619819/28743912-ba51df34-7423-11e7-9b2b-c1a9de64d6f6.JPG)
+
 <input [value]="firstName">	
 Binds property value to the result of expression firstName.
 <div [attr.role]="myAriaRole">	
